@@ -1,8 +1,13 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {View, StyleSheet} from 'react-native';
+import {TextInput, Headline, Button} from 'react-native-paper';
 
 const NuevoCliente = () => {
-  return <Text>Desde NuevoCliente</Text>;
+  return (
+    <View>
+      <Headline>Añadir Nuevo Cliente</Headline>
+    </View>
+  );
 };
 
 export default NuevoCliente;
